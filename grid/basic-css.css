@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.color1{
+    background: lightcoral;
+}
+.color2{
+    background: lightpink;
+}
+.color3{
+    background: lightsalmon;
+}
+.color4{
+    background: rgb(237, 83, 181);
+}
+.color5{
+    background: rgb(180, 57, 194);
+}
+.color6{
+    background: rgb(97, 65, 161);
+}
+.color7{
+    background: rgb(95, 110, 220);
+}
+.color8{
+    background: rgb(44, 141, 120);
+}
+.color9{
+    background: rgb(83, 212, 137);
+}
+.color10{
+    background: rgb(214, 207, 68);
+}

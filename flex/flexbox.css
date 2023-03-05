@@ -1,0 +1,47 @@
+.container{
+    background: beige;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* flex-flow: column-reverse nowrap; */
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+.item1{
+    background: lightcoral;
+}
+.item2{
+    background: lightpink;
+    flex-basis: 50%;
+}
+.item3{
+    background: lightsalmon;
+    order: -1
+}
+.item4{
+    background: rgb(237, 83, 181);
+}
+.item5{
+    background: rgb(180, 57, 194);
+}
+.item6{
+    background: rgb(97, 65, 161);
+}
+.item7{
+    background: rgb(95, 110, 220);
+}
+.item8{
+    background: rgb(44, 141, 120);
+}
+.item9{
+    background: rgb(83, 212, 137);
+}
+.item10{
+    background: rgb(214, 207, 68);
+}
